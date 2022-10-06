@@ -1,12 +1,21 @@
 body {
   background-color: bisque;
 }
-h1 {
+h1,
+p {
   text-align: center;
 }
 img {
-  width: 600px;
+  max-width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin: 30px auto;
 }
-a {
+.footer {
+  text-align: center;
+  color: black;
+}
+.footer a {
+  margin: 0 15px;
   color: black;
 }
